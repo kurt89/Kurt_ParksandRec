@@ -1,0 +1,31 @@
+CREATE TABLE parks (
+    objectid INT PRIMARY KEY,
+    parkid TEXT,
+    parkname TEXT,
+    parkaddress TEXT,
+    streetno TEXT,
+    streetname TEXT,
+    city TEXT,
+    state TEXT,
+    zipcode TEXT,
+    parktype TEXT,
+    parkcatagory TEXT,
+    parkstatus TEXT,
+    parkdist TEXT,
+    parkphone TEXT,
+    councildistrict TEXT,
+    bocc TEXT,
+    parkdate TEXT,
+    x FLOAT,
+    y FLOAT,
+    leasedid TEXT,
+    parklatitude TEXT,
+    parklongitude TEXT,
+    lattitude TEXT,
+    longitude TEXT,
+    population TEXT,
+    pplpersqmile TEXT,
+    avgincomeperhshd TEXT
+);
+
+select * from parks;

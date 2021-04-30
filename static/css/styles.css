@@ -1,0 +1,111 @@
+/* Formatting for HTML elements */
+body {
+    padding: 5;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    line-height: 150%;
+    color: #333;
+   }
+
+#map,
+body,
+html {
+     height: 175%;
+     width: 100%;
+     padding: 20px;
+   }
+
+#blank{
+margin: 5px;
+padding:5px}
+
+   /* Format html header statements*/
+h2{
+    color:lightseagreen;
+    background-color: #fff;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* font formatting for paragraphs */
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    /* padding:10px; */
+    background-color: #fff;}
+
+/*Formatting the Visualization section*/
+h3{color:lightseagreen;
+    background-color: #fff;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-right: 20px;}
+
+.col-md-12{
+    background-color: #fff;
+    padding-top: 10px;
+    /* padding-bottom:20px; */
+    padding-right: 10px;
+}
+    
+/* Formatting for the navigation bar */
+.navbar {
+    background-color:lightseagreen;
+    font-size: 20px; 
+}
+
+.navigation .navbar-brand {
+    color:#fff;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:lightseagreen;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 10px;
+ }
+
+ .active, .dropdown-menu .dropdown-item:active a:hover {background-color:lightseagreen;}
+ 
+.dropdown-item {color:lightseagreen}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {background-color: powderblue;}
+  
+.nav-link:hover {background-color: lightseagreen;}
+  
+.navbar-brand:hover {color:powderblue;}
+
+/*formatting the table*/
+table{background-color: #fff;
+margin-left: 40px;}
+
+
+
+
+@media(max-width:767px){
+body { font-size: smaller;}
+    
+h2{font-size: medium;}   
+ 
+p{font-size: medium;}
+    
+h3{font-size: medium;}
+
+h4{font-size:smaller;}
+
+.navbar.bg-light{
+    background-color:lightseagreen;   
+}
+
+.navbar-collapse{
+background-color:#fff;
+}
+
+/*formatting the table*/
+table{margin-left: 0px;
+font-size: smaller;}
+}
